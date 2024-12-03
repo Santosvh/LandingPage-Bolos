@@ -1,0 +1,134 @@
+/*body
+{ 
+font-size: 10xp;
+font-family: arial,sans-serif;
+border-radius: 10px;
+max-width: 800px;
+}
+
+ p{
+color: rgba(126, 120, 255, 0.922);
+margin:0%;
+padding:0%;
+ }
+
+ .container
+ {
+margin: 10px;
+color: black;
+margin: 10px;
+background-color: rgb(137, 246, 250);
+margin-top: 5%;
+border-radius: 2%;
+display: flex;
+margin-left: 100px;
+margin-right: -200px;
+}
+
+ .right-selection {
+    width: 30%; /* Largura de 50% da tela */
+    background-color: #348feb; /* cor de fundo azul escuro */
+    display: flex; /* Layout flexível para centralizar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    /*flex-direction: column; /* organiza os itens em coluna */
+    padding: 10px; /* espaçamento interno */
+
+ }
+
+ .formacao-academica
+ {
+  margin:100px;
+  background-color:aqua;
+  padding: 10px;;
+  
+ }
+ 
+ .experiencias
+ {
+ margin:10px;
+ }
+
+ .cursos
+ {
+ margin:10px; 
+ background-color: #348feb ; 
+ }
+
+ .dados-pessoais .name
+ {
+color: rgb(7, 0, 11); 
+margin:40px;
+border-radius: 10px;
+background-color: rgba(27, 8, 83, 0.525);
+padding: 1%;
+text-align: center;
+
+ }
+
+ .dados-pessoais
+ {
+ color: black;
+ margin:20px;
+ background-color:rgb(119, 245, 245) ;
+
+ }
+.vitin-photo
+{
+height: 150px;
+width: 110px;
+border-radius: 100%;
+/*margin-top: 60px;*/
+/*margin-left: 0px;*/
+/*margin-right: -60px;
+margin-left: 50px;*/
+top: 200px;
+
+
+
+}
+.git
+{
+margin-top: 10px;
+margin-left: 50px;
+margin-right: -60px;
+width: 80px;
+height: 80px;
+border: 4px solid blue;
+border-radius: 100%;
+}
+.insta
+{
+margin-top: 50px;
+margin-left: 2.5px;
+margin-right: -60px;
+width: 80px;
+height: 80px;
+border: 4px solid lightblue;
+border-radius: 100%;
+}
+
+.skill-bar {
+    height: 35px; /*altura da barra*/
+    border-radius: 25px;
+    background-color: #2b09ed;
+    width: 0;
+    text-align:center;
+    line-height: 24px;
+    color: white;
+    font-size: 20px;
+}
+
+.skill-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+
+.section-skills {
+padding-left: 10px; /* Diminui o espaço à esquerda */
+margin-left: -160px; /* Move toda a seção mais para a esquerda */
+}

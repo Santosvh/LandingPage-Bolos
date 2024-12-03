@@ -1,0 +1,164 @@
+  /* Estilos gerais para o corpo da página */
+  body {
+    font-size: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #f8f8f8; /* Cor de fundo clara */
+    margin: 0;
+    padding: 20px;
+    display: flex; /* Alinha os elementos no centro da página */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Define altura mínima de 100% da tela */
+}
+
+/* Estilos para o container principal que envolve todo o conteúdo */
+.container {
+    display: flex; /* Define layout flexível */
+    max-width: 1200px; /* Largura máxima do container */
+    background-color: #f7f7f7; /* Cor de fundo do container */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do container */
+    overflow: hidden; /* Evita que o conteúdo ultrapasse as bordas */
+    width: 100%; /* Largura total */
+}
+
+/* Estilos para a seção esquerda que contém o conteúdo do currículo */
+.left-section {
+    width: 70%; /* Largura de 50% da tela */
+    padding: 30px; /* Espaçamento interno */
+    background-color: #f7f7f7; /* Cor de fundo */
+}
+
+/* Estilos para a seção direita que contém as redes sociais */
+.right-section {
+    width: 30%; /* Largura de 50% da tela */
+    background-color: #1cf3a4; /* cor de fundo azul escuro */
+    display: flex; /* Layout flexível para centralizar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    /*flex-direction: column; /* organiza os itens em coluna */
+    padding: 20px; /* espaçamento interno */
+}
+
+/* Estilo para o título principal (nome) */
+h1 {
+    font-size: 32px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo para os títulos das seções (Ex: Formação Acadêmica) */
+h2 {
+    font-size: 24px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo geral para os parágrafos */
+p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
+
+/* Estilos para links */
+a {
+    color: #003e7d; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+/* Estilos para o efeito hover nos links */
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o link é "hovered" */
+}
+
+/* Estilo para seções (Ex: Perfil Profissional) */
+.section {
+    margin-bottom: 20px; /* Espaçamento entre as seções */
+}
+
+/* Estilos para as listas não ordenadas */
+ul {
+    list-style-type: square; /* Estilo de lista com quadrados */
+    margin-left: 20px; /* Recuo da lista */
+}
+
+/* Estilo para os itens das listas */
+ul li {
+    margin-bottom: 5px; /* Espaçamento entre os itens da lista */
+}
+
+/* Estilo para o cabeçalho com as informações pessoais */
+.header {
+    border-bottom: 2px solid #333; /* Linha abaixo do cabeçalho */
+    margin-bottom: 20px; /* Espaçamento abaixo do cabeçalho */
+    padding-bottom: 10px; /* Espaçamento interno */
+}
+
+/* Estilo para informações adicionais */
+.info-adicional {
+    font-style: italic; /* Define o texto como itálico */
+}
+
+/* Estilo para a área de ícones das redes sociais */
+.social-icons {
+    display: flex; /* Layout flexível para os ícones */
+    flex-direction: column; /* Organiza os ícones em uma coluna */
+    gap: 10px; /* Espaçamento entre os ícones */
+}
+
+/* Estilo para os ícones das redes sociais */
+.social-icons img {
+    width: 40px; /* Largura dos ícones */
+    height: 40px; /* Altura dos ícones */
+    position: relative;
+    top: -500px;
+}
+.header .name{
+    text-align: right;
+}
+
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+    top: -300px;
+}
+
+ /* Estilo da barra de progresso */
+ .skill-container {
+    padding: auto;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 35px;
+    margin-bottom: 25px;
+    margin-left: -20px;
+
+}
+
+.skill-bar {
+    height: 35px; /*altura da barra*/
+    border-radius: 25px;
+    background-color: #2b09ed;
+    width: 0;
+    text-align:center;
+    line-height: 24px;
+    color: white;
+    font-size: 20px;
+}
+
+.skill-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+
+.section-skills {
+padding-left: 10px; /* Diminui o espaço à esquerda */
+margin-left: -160px; /* Move toda a seção mais para a esquerda */
+}
