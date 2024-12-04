@@ -1,6 +1,5 @@
-<?php 
-$vic = "Este arquivo de texto, é para teste local.";
-
-echo $vic; 
-  ?>
-
+<style>
+  body {
+    background-color: #1cf3a4;
+  }
+</style>
